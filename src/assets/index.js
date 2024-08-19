@@ -27,9 +27,9 @@ import fireblocks from "./company/fireblocks.png";
 import ofek from "./company/ofek.png";
 import tonkean from "./company/tonkean.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import layerxsystem from "./layerx-system.png";
+import tonkeansystem from "./tonkean-system.png";
+import fireblocksystem from "./fireblocks-system.png";
 
 export {
   logo,
@@ -58,7 +58,7 @@ export {
   fireblocks,
   ofek,
   tonkean,
-  carrent,
-  jobit,
-  tripguide,
+  layerxsystem,
+  tonkeansystem,
+  fireblocksystem,
 };

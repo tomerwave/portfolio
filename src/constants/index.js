@@ -12,9 +12,7 @@ import {
   layerx,
   ofek,
   tonkean,
-  carrent,
-  jobit,
-  tripguide,
+  fireblocksystem,
   fireblocks,
   java,
   springboot,
@@ -24,6 +22,8 @@ import {
   kubernetes,
   terraform,
   aws,
+  layerxsystem,
+  tonkeansystem,
 } from "../assets";
 
 export const navLinks = [
@@ -176,7 +176,7 @@ const experiences = [
   {
     title: "Senior Backend Engineer",
     company_name: "Fireblocks",
-    icon: fireblocks, // TODO: add fireblocks logo
+    icon: fireblocks,
     iconBg: "#383E56",
     date: "July 2024 - Present",
     points: [
@@ -217,30 +217,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Tonkean",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Tonkean is the first-of-its-kind intake orchestration platform. Powered by AI, Tonkean helps enterprise internal service teams like procurement and legal create process experiences that people actually follow.",
     tags: [
       {
         name: "react",
@@ -251,32 +230,53 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "java",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: tonkeansystem,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "LayerX Security",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "LayerX Enterprise Browser Extension protects the enterprise’s identities, SaaS apps, data and devices from web-borne threats and browsing risks, while maintaining a top-notch user experience.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "node.js",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "kubernetes",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: layerxsystem,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Fireblocks",
+    description:
+      "Fireblocks is a secure platform for institutions to manage and transfer digital assets, utilizing advanced security measures to protect assets from cyber threats and streamline transactions across wallets and exchanges.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "architecture",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: fireblocksystem,
     source_code_link: "https://github.com/",
   },
 ];
