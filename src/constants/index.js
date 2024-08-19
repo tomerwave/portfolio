@@ -5,15 +5,9 @@ import {
   web,
   javascript,
   typescript,
-  html,
-  css,
   reactjs,
-  redux,
-  tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
   docker,
   layerx,
   ofek,
@@ -21,8 +15,15 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
   fireblocks,
+  java,
+  springboot,
+  postgres,
+  kafka,
+  redis,
+  kubernetes,
+  terraform,
+  aws,
 } from "../assets";
 
 export const navLinks = [
@@ -61,14 +62,6 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -77,39 +70,51 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: "Java",
+    icon: java,
+  },
+  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
   },
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Spring Boot",
+    icon: springboot,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Kafka",
+    icon: kafka,
   },
   {
-    name: "git",
+    name: "Kubernetes",
+    icon: kubernetes,
+  },
+  {
+    name: "Redis",
+    icon: redis,
+  },
+  {
+    name: "PostgreSQL",
+    icon: postgres,
+  },
+  {
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "AWS",
+    icon: aws,
   },
   {
-    name: "docker",
+    name: "Terraform",
+    icon: terraform,
+  },
+  {
+    name: "Docker",
     icon: docker,
   },
 ];
