@@ -38,6 +38,16 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "github",
+    title: "Github",
+    link: "https://github.com/tomerwave",
+  },
+  {
+    id: "medium",
+    title: "Medium",
+    link: "https://medium.com/@tomerwave",
+  },
 ];
 
 const services = [
