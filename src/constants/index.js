@@ -7,7 +7,6 @@ import {
   typescript,
   reactjs,
   nodejs,
-  git,
   docker,
   layerx,
   ofek,
@@ -100,10 +99,6 @@ const technologies = [
   {
     name: "PostgreSQL",
     icon: postgres,
-  },
-  {
-    name: "Git",
-    icon: git,
   },
   {
     name: "AWS",

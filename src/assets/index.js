@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -8,7 +8,6 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import docker from "./tech/docker.png";
-import git from "./tech/git.png";
 import javascript from "./tech/javascript.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
@@ -31,6 +30,8 @@ import layerxsystem from "./layerx-system.png";
 import tonkeansystem from "./tonkean-system.png";
 import fireblocksystem from "./fireblocks-system.png";
 
+import portrait from "./tomer.jpg";
+
 export {
   logo,
   backend,
@@ -41,7 +42,6 @@ export {
   menu,
   close,
   docker,
-  git,
   javascript,
   java,
   springboot,
@@ -61,4 +61,5 @@ export {
   layerxsystem,
   tonkeansystem,
   fireblocksystem,
+  portrait,
 };
