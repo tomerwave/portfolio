@@ -1,8 +1,8 @@
-import logo from "./logo.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import logo from "./logo.webp";
+import backend from "./backend.webp";
+import creator from "./creator.webp";
+import mobile from "./mobile.webp";
+import web from "./web.webp";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -12,25 +12,25 @@ import javascript from "./tech/javascript.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import typescript from "./tech/typescript.png";
-import java from "./tech/java.png";
-import springboot from "./tech/spring-boot.png";
-import postgres from "./tech/postgres.png";
-import kafka from "./tech/kafka.png";
-import redis from "./tech/redis.png";
-import kubernetes from "./tech/kubernetes.png";
-import terraform from "./tech/terraform.png";
+import java from "./tech/java.webp";
+import springboot from "./tech/spring-boot.webp";
+import postgres from "./tech/postgres.webp";
+import kafka from "./tech/kafka.webp";
+import redis from "./tech/redis.webp";
+import kubernetes from "./tech/kubernetes.webp";
+import terraform from "./tech/terraform.webp";
 import aws from "./tech/aws.png";
 
-import layerx from "./company/layerx.png";
-import fireblocks from "./company/fireblocks.png";
-import ofek from "./company/ofek.png";
-import tonkean from "./company/tonkean.png";
+import layerx from "./company/layerx.webp";
+import fireblocks from "./company/fireblocks.webp";
+import ofek from "./company/ofek.webp";
+import tonkean from "./company/tonkean.webp";
 
-import layerxsystem from "./layerx-system.png";
-import tonkeansystem from "./tonkean-system.png";
-import fireblocksystem from "./fireblocks-system.png";
+import layerxsystem from "./layerx-system.webp";
+import tonkeansystem from "./tonkean-system.webp";
+import fireblocksystem from "./fireblocks-system.webp";
 
-import portrait from "./tomer.jpg";
+import portrait from "./tomer.webp";
 
 export {
   logo,

@@ -30,7 +30,7 @@ const TextLoop = styled.div`
   font-weight: 600;
   font-size: 32px;
   display: flex;
-  gap: 12px;
+  gap: 6px;
   color: #f2f3f4;
   line-height: 68px;
 
@@ -118,11 +118,6 @@ const Hero = () => {
                 />
               </Span>
             </TextLoop>
-            {/* <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-                "Ambition is the path to success.
-                <br className="sm:block hidden" /> Persistence is the vehicle
-                you arrive in."
-              </p> */}
           </div>
         </div>
         <SecondDiv>
